@@ -28,7 +28,7 @@ ALB created and both target group has been added, shown below:
 <img width="1402" height="210" alt="alb1" src="https://github.com/user-attachments/assets/9ffe8c8a-705a-460f-a577-19a8feba7e57" />  
 ## For backend target group role been created so that the ALB distribution can be verified  
 <img width="1477" height="847" alt="alb2" src="https://github.com/user-attachments/assets/1e4d8c5d-be7e-4db1-8351-ca1be5705a2a" />  
-Testing TravelMonitor app using load balancer DNS, as below  
+Testing TravelMonitor app using load balancer endpoint, as below  
 <img width="1120" height="1016" alt="ft1" src="https://github.com/user-attachments/assets/df39e559-db7f-4896-a63a-00a23ac63c6e" />  
 Verifying the load balancing first attempt hits backend 1 server  
 <img width="858" height="195" alt="bk1" src="https://github.com/user-attachments/assets/92d8509a-c3d3-41d4-ad2a-0ad53c1091f3" />  
@@ -36,7 +36,12 @@ Verifying the load balancing first attempt hits backend 1 server
 Verifying the load balancing again for second attempt hits backend 2 server  
 <img width="862" height="196" alt="bk2" src="https://github.com/user-attachments/assets/96600a41-c42e-4c5e-a98e-40eb22949aa1" />  
 
-
-
-
-
+## 4. Domain Setup with Cloudflare:  
+Created custom domain on Cloudflare  
+<img width="1500" height="386" alt="cf1" src="https://github.com/user-attachments/assets/10e71b76-97ce-4cb3-a232-280608de10aa" />  
+A record to EC2 instance public IP and CNAME record to ALB endpoint respectively  
+<img width="1820" height="602" alt="CNAME" src="https://github.com/user-attachments/assets/7a8809bc-ad0a-4c17-9945-9b6215e9fb46" />  
+## Test Rsult  
+<img width="1117" height="1022" alt="cf2" src="https://github.com/user-attachments/assets/2760736e-e678-41c7-8b4f-27d4a39e12f4" />  
+<img width="630" height="152" alt="cf3" src="https://github.com/user-attachments/assets/08f8087d-e6df-4c86-abec-be972fd06d8b" />  
+<img width="602" height="167" alt="cf4" src="https://github.com/user-attachments/assets/f2fa7692-62f7-4e97-ad53-5a821f851268" />  
