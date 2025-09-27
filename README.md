@@ -41,7 +41,7 @@ Created custom domain on Cloudflare
 <img width="1500" height="386" alt="cf1" src="https://github.com/user-attachments/assets/10e71b76-97ce-4cb3-a232-280608de10aa" />  
 A record to EC2 instance public IP and CNAME record to ALB endpoint respectively  
 <img width="1820" height="602" alt="CNAME" src="https://github.com/user-attachments/assets/7a8809bc-ad0a-4c17-9945-9b6215e9fb46" />  
-## Test Rsult  
+## Test Result  
 <img width="1117" height="1022" alt="cf2" src="https://github.com/user-attachments/assets/2760736e-e678-41c7-8b4f-27d4a39e12f4" />  
 <img width="630" height="152" alt="cf3" src="https://github.com/user-attachments/assets/08f8087d-e6df-4c86-abec-be972fd06d8b" />  
 <img width="602" height="167" alt="cf4" src="https://github.com/user-attachments/assets/f2fa7692-62f7-4e97-ad53-5a821f851268" />  
